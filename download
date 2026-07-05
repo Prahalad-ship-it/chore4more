@@ -1,0 +1,35 @@
+# Block all .env files anywhere in the project
+**/.env
+# Virtual environment
+backend/venv/
+
+# Node modules
+node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.env.*
+
+# Block python caches and environments
+**/__pycache__/
+*.pyc
+venv/
+.venv/
+# Database
+*.db
+
+# Uploads
+uploads/
+
+# VS Code
+.vscode/
+AGENT.md
+ticket.md
